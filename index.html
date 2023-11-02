@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script>
+    function myFunction() {
+      let person = prompt("Please enter your name", "Harry Potter");
+      if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! How are you today?";
+      }
+    }
+</script> 
+<body>
+
+    <div class="navbar">
+        <div class="left">
+          <h1>Anithings</h1>
+        </div>
+        <div class="right">
+          <div><a href="index.html">Terrestrial</a></div>
+          <div><a href="about.html">Aerial</a></div>
+          <div><a href="contact.html">Marine</a></div>
+         <div><button onclick="myFunction()">Take Input</button></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="grid-item"><p id="demo"></p></div>  
+    </div>
+    
+    <div class="container">
+        <h1>Wolves</h1>
+        <div class="grid-container">
+            <div class="grid-item"><h1><img src="Image/1.jpg" style="width: 80%;"></h1></div>
+            <div class="grid-item"><p>The wolf, scientifically known as Canis lupus, is a magnificent and highly intelligent carnivorous mammal that has long captured the human imagination. Wolves are renowned for their social nature, living in tight-knit family groups known as packs. They are adept hunters and are equipped with keen senses, including excellent night vision and a keen sense of smell.</p></div>
+        </div> 
+        <h1>Arctic Bear</h1>
+        <div class="grid-container">
+            <div class="grid-item"><p>Arctic bears, more commonly known as polar bears, are among the most iconic and fascinating creatures of the Arctic region. These magnificent animals are well adapted to the harsh, icy landscapes of the Arctic, where they are the largest terrestrial carnivores. Their distinctive white fur and thick layer of blubber provide insulation against the extreme cold, while their powerful limbs and large paws enable them to swim in frigid waters and hunt seals, their primary prey.</p></div>
+            <div class="grid-item"><h1><img src="Image/2.jpg" style="width: 80%;"></h1></div>
+        </div>
+    </div>
+</body>
+</html>
